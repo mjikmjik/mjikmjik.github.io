@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Stylish Site</title>
+  <title>自己紹介 | StylishSite</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,16 +12,28 @@
   <header>
     <div class="logo">StylishSite</div>
     <nav>
-      <a href="#">ホーム</a>
-      <a href="#">サービス</a>
+      <a href="index.html">ホーム</a>
+      <a href="about.html" class="active">自己紹介</a>
       <a href="#">お問い合わせ</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h1>あなたのスタイルをカタチに</h1>
-    <p>モダンで美しいウェブサイトを、誰でも簡単に。</p>
-    <button class="btn" id="startBtn">今すぐ始める</button>
+  <section class="about">
+    <div class="about-container">
+      <div class="profile-pic">
+        <img src="images/profile.jpg" alt="プロフィール写真">
+      </div>
+      <div class="about-text">
+        <h1>こんにちは、〇〇です。</h1>
+        <p>
+          Webデザインとフロントエンド開発が大好きなクリエイターです。<br>
+          シンプルで美しいUIを作るのが得意で、日々コーディングとデザインを楽しんでいます。<br><br>
+          趣味はカフェ巡りと写真撮影。<br>
+          最近はReactやThree.jsにも挑戦中です！
+        </p>
+        <button class="btn">もっと見る</button>
+      </div>
+    </div>
   </section>
 
   <script src="script.js"></script>
